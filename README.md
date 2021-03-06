@@ -255,3 +255,9 @@ Currently it is impossible to run Zurocoin on any Big-Endian platform, due to lo
 ## Building with parameters
 
 If you want to use tools like `clang-tidy`, run `cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..` instead of `cmake ..`
+
+## Donations
+
+If you want to help to keep Zurocoin alive:
+
+BTC: bc1qwwqv0yqretuj2sjsgh567xg9p9h3gd4qete2ex
