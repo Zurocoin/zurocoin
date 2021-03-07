@@ -258,6 +258,6 @@ If you want to use tools like `clang-tidy`, run `cmake -DCMAKE_EXPORT_COMPILE_CO
 
 ## Donations
 
-If you want to help to keep Zurocoin alive:
+If you want to help Zurocoin team:
 
 BTC: bc1qwwqv0yqretuj2sjsgh567xg9p9h3gd4qete2ex
