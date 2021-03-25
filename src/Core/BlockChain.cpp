@@ -213,7 +213,7 @@ BroadcastAction BlockChain::add_block(const PreparedBlock &pb, api::BlockHeader 
 	return BroadcastAction::BROADCAST_ALL;
 }
 
-bool BlockChain::reorganize_blocks(const hash &switch_to_chain,
+bool BlockChain::reorganize_blocks(const Hash &switch_to_chain,
     const PreparedBlock &recent_pb,
     const api::BlockHeader &recent_info) {
 	// Header chain is better than block chain, undo upto splitting block
