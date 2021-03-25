@@ -106,13 +106,14 @@ const uint32_t P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT      = 5000;           // 5 
 const char P2P_STAT_TRUSTED_PUB_KEY[] = "E29507CA55455F37A3B783EE2C5123B8B6A34A0C5CAAE050922C6254161480C1";
 
 const char *const SEED_NODES[] = {
-    "185.198.57.194:17070"};
-	
+    "185.198.57.94:8080"};
+
 struct CheckpointData {
 	uint32_t index;
 	const char *block_id;
 };
 
 constexpr const CheckpointData CHECKPOINTS[] = {
-};
+    {5000, "2d47be3936ce0815896abecda27e7df16e29f97268bd5a973f6bf9dd7c6ecc84"},
+    {10000, "a0d31edef3ca0688cd3afd83fcbf20fd1a36a3740767df4fab8744ddc5ed8315"}};
 }  // CryptoNote
